@@ -4,7 +4,7 @@ import { Text, View } from "react-native"
 const Show = () => {
   return (
     <View>
-      <Text>ブログ詳細ページです</Text>
+      <Text style={{ fontSize: 20, fontWeight: "bold" }}>ブログ詳細ページです</Text>
       <Link href="/">TOPへ戻る</Link>
     </View>
   )

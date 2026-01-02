@@ -4,7 +4,7 @@ import { Text, View } from "react-native"
 const Index = () => {
   return (
     <View>
-      <Text>ブログアプリ</Text>
+      <Text style={{ fontSize: 20, fontWeight: "bold" }}>ブログアプリ</Text>
       <View>
         <Link href="/blog">ブログ一覧へ</Link>
         <Link href="/blog/create">ブログ作成へ</Link>

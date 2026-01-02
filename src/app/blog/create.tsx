@@ -4,7 +4,7 @@ import { Text, View } from "react-native"
 const Create = () => {
   return (
     <View>
-      <Text>ブログ作成ページです</Text>
+      <Text style={{ fontSize: 20, fontWeight: "bold" }}>ブログ作成ページです</Text>
       <Link href="/">TOPへ戻る</Link>
     </View>
   )
